@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Plugin Name: BACOL
+ * Plugin Name: LSRI
  * Plugin URI: https://lsri.info
- * Description: Utils for Building a City of Literature
+ * Description: Utils for the LSRI WP Installation
  * Version: 0.0.1
  * Author: Tom Sweeney
  * Author URI: http://www.magneticmule.com
