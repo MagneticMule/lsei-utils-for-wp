@@ -139,21 +139,23 @@ class PostManager {
          register_post_type( 'news', $customPostArgs );
      }
 
-     /**
-      * Creates a help tab for the News post type.
-      * @see add_help_tab()
-      * @link https://codex.wordpress.org/Class_Reference/WP_Screen/add_help_tab
-      */
-      function addNewsHelpTab() {
-        $screen = get_current_screen();
-        $screenIds = array( 'edit-playscripts', 'playscripts' );
+        
 
-    if ( ! in_array( $screen->id, $screenIds ) ) {
-        return;
-    }
-}
+//      /**
+//       * Creates a help tab for the News post type.
+//       * @see add_help_tab()
+//       * @link https://codex.wordpress.org/Class_Reference/WP_Screen/add_help_tab
+//       */
+//       function addNewsHelpTab() {
+//         $screen = get_current_screen();
+//         $screenIds = array( 'edit-playscripts', 'playscripts' );
 
-    /*
+//     if ( ! in_array( $screen->id, $screenIds ) ) {
+//         return;
+//     }
+// }
+
+/*
     $screen->add_help_tab(
         array(
             'id'      => 'sp_overview',
