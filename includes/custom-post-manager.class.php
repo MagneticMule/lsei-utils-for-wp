@@ -104,7 +104,7 @@ class PostManager {
          $labels = array(
             'name' => __( 'News' ),
             'singular_name' => __( 'News' ),
-            'add_new' => ( 'Add New Script' ),
+            'add_new' => ( 'Add News Item' ),
             'add_new_item' => ( 'Add New News Item' ),
             'edit_item' => ( 'Edit News Item' ),
             'new_item' => ( 'Add News Item' ),
@@ -215,7 +215,7 @@ class PostManager {
         add_action( 'init', array($this, 'changeBlogLabel' ));
         add_action( 'init', array($this, 'changeBlogObject' ));
         add_action( 'init', array($this, 'buildNewsPost' ));
-        add_action( "load-edit.php", array($this, 'addNewsHelpTab' ));
-        add_action( "load-post.php", array($this, 'addNewsHelpTab' ));
+        // add_action( "load-edit.php", array($this, 'addNewsHelpTab' ));
+        // add_action( "load-post.php", array($this, 'addNewsHelpTab' ));
     }
 }
